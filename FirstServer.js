@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
     res.end('our history');
   } else
     res.end(`
-  <h1>Oops</h1>
+  <h1>Ooops</h1>
   <p>We cant find this page</p>
   <a href="/">back home</a>
   `);
